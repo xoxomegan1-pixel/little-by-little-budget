@@ -1,0 +1,35 @@
+# Locally configured Firebase application values
+public/firebase-config.js
+
+# Never commit real financial records or exports
+*backup*.json
+*Backup*.json
+*financial-data*
+*personal-budget*
+/data/
+/backups/
+/exports/
+
+# Secrets and cloud credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*service-account*.json
+*service_account*.json
+*credentials*.json
+*firebase-admin*.json
+*private-key*.json
+
+# Firebase and build/local artifacts
+.firebase/
+firebase-debug.log
+firestore-debug.log
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
